@@ -1,0 +1,508 @@
+/* colors -> https://coolors.co/2b155b-2b1644-3ee7b7-1c9261-d7aba6*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+/*font-family: 'Yellowtail', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+/*font-family: 'Berkshire Swash', cursive;*/
+
+@import url("hover-min.css");
+
+
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+/*    background-color: #FFDDD9; */
+}
+
+/***********Home Page *******************/
+
+.Home-welcome{
+	font-family: 'Yellowtail', cursive;
+	font-size: 2.5rem;
+	position: relative;
+	top: 15px; 
+/*	top: 140px;*/
+	-webkit-text-fill-color: black;
+	transform: rotate(-7deg);
+	margin-left: 33%;
+	text-align: left;
+	
+}
+
+.Home-welcome2{
+	font-family: 'Yellowtail', cursive;
+	font-size: 2.5rem;
+	position: relative;
+/*	top: 110px;*/
+	-webkit-text-fill-color: black;
+	transform: rotate(-7deg);
+	margin-left: 36%;
+	text-align: left;
+	
+	
+}
+
+.Home-Name-first{
+  	font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+    position:relative;
+/*    top: 125px;*/
+	margin-left: 32%;
+	text-align: left;
+	
+      
+    
+}
+
+.Home-Name-last {
+	font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+    position:relative;
+	top: -56px;
+/*    top: 56px; */
+	margin-left: 33%; 
+    text-align: left; 
+}
+
+
+.Home-title{
+    font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
+    -webkit-text-fill-color: black;
+    position:relative;
+	top: -95px;
+/*    top:30px;*/
+    margin-left: 32%; 
+    text-align: left; 
+
+}
+
+/****************** About Page **********************/
+
+.About-heading {
+	font-family: 'Yellowtail', cursive;
+	font-size: 3rem;
+	position: relative;
+	text-align: center; 
+	
+}
+
+/*Pink Background */
+.About-sect {
+	background-color:#FED1CE;
+    width:100vw;
+    float:left;
+    height:50vh;
+    border-right: 1vw solid #FED1CE; 
+    margin:0;
+    padding:0;  
+}
+.About-text{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.skills-heading{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	text-align: left;
+	
+}
+/*Blue Background*/
+.skills-sect{
+	background-color:#D0EDE9;
+    width:100vw;
+    float:left;
+    height:75vh;
+    border-left: 1vw solid #D0EDE9 ;  
+    margin:0;
+}
+
+/***Box size,color, text alignmnet ***/
+
+.imageBox1{
+	background-color: #ffffff;
+    width: 250px;
+	height: 200px;
+
+}
+.imageBox1:hover{
+	background-color: #D0EDE9;
+	width: 250px;
+	height: 200px;
+}
+.modalbtn1{
+	background: #FB71C7;
+	padding: 0.1em 0.1em;
+	width: 150px;
+	position: relative;
+	top: 15px;
+	margin-left: 20%;
+	border: none;	
+}
+.modalbtn1:hover{
+	background: #EF0A91;
+}
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+		
+}
+.modal-content{
+	background-color: #f4f4f4;
+	margin: 20% auto;
+	padding: 20px;
+	width:75%;
+	box-shadow: 0 5px 8px 0 rgb(0,0,0,0.2), 0 7px 20px 0 rgb(0,0,0.17);
+}
+.closeBtn{
+	color:#ccc;
+	float: right;
+	font-size: 30px;
+	
+}
+.closeBtn:hover, .closeBtn:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+.quoteBox1{
+	background-color: #1c9261;
+    width: 250px;
+	height: 200px;
+
+}
+
+.imageBox2{
+	background-color: #ffffff;
+    width: 250px;
+	height: 200px;
+
+}
+
+.imageBox2:hover{
+	background-color: #D0EDE9;
+	width: 250px;
+	height: 200px;
+}
+
+.quoteBox2{
+	background-color: #1c9261;
+    width: 250px;
+	height: 200px;
+
+}
+.imageBox3{
+	background-color: #ffffff;
+    width: 250px;
+	height: 200px;
+
+}
+
+.imageBox3:hover{
+	background-color: #D0EDE9;
+	width: 250px;
+	height: 200px;
+}
+.imageBox4{
+	background-color: #ffffff;
+    width: 250px;
+	height: 200px;
+
+}
+
+.imageBox4:hover{
+	background-color: #D0EDE9;
+	width: 250px;
+	height: 200px;
+}
+
+.programming {
+	text-align: center;
+	position:relative;
+	top: 12px;
+
+}
+
+.operatingSys {
+	text-align: center;
+	position:relative;
+	top: 12px;
+
+}
+
+.IDETools {
+	text-align: center;
+	position:relative;
+	top: 12px;
+
+}
+
+.GDesign {
+	text-align: center;
+	position:relative;
+	top: 12px;
+
+}
+.quote1{
+	text-align: center;
+	position: relative;
+	top: 50px; 
+}
+.quote2{
+	text-align: center;
+	position: relative;
+	top: 50px; 
+}
+.quote3{
+	text-align: center;
+	position: relative;
+	top: 50px; 
+}
+
+.quote4{
+	text-align: center;
+	position: relative;
+	top: 50px; 
+}
+
+
+/*************** Projects Page********************/
+.ProjectsPage{
+	text-align: center; 
+}
+.section1{
+	background-color:#D0EDE9;
+    width:49.61vw;
+    float:left;
+    height:100vh;
+
+}
+
+.section2{
+	background-color:#FED1CE;
+    width:49vw;
+    float:right;
+    height:100vh;
+
+}
+
+/*************** Contact Page********************/
+
+/******************** Footer*******************/
+
+.page-footer{
+	background: #3EE7B7; 
+	width: 100%; 
+}
+
+.footer-copyright{
+	text-align: center;	
+}
+
+/*************** Menu Bar *****************/
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #3EE7B7;
+  color: #EBEBD3;
+  padding: 1em 0; 
+  position: relative;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.logo {
+  float: left;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  position:relative;
+ left: -40px; 
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 400;
+}
+/**** Nav Bar Menu Mobile****/
+.site-nav {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background: #2B1644;
+  -webkit-clip-path: circle(0px at top right);
+          clip-path: circle(0px at top right);
+  transition: -webkit-clip-path ease-in-out 700ms;
+  transition: clip-path ease-in-out 700ms;
+  transition: clip-path ease-in-out 700ms, -webkit-clip-path ease-in-out 700ms;
+/*  display: none;*/
+}
+
+.site-nav--open {
+  -webkit-clip-path: circle(250% at top right);
+          clip-path: circle(250% at top right);
+/*   display: block; */
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  border-bottom: 1px solid #575766;
+}
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+
+.site-nav a {
+  color: #EBEBD3;    
+  display: block;
+  padding: 2em 4em 2em 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: #D7ABA6;
+  color: #464655;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+}
+
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburger::before { 
+
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+    
+}
+
+
+.hamburger::after {
+    
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.open .hamburger {
+   
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.open .hamburger::before {
+  opacity: 0;
+}
+
+.open .hamburger::after {
+   
+  -webkit-transform: translateY(-3px) rotate(-90deg);
+          transform: translateY(-3px) rotate(-90deg);
+}
+
+/**** Nav Bar Desktop ****/
+@media (min-width: 700px) {
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+    -webkit-clip-path: initial;
+            clip-path: initial;
+  }
+  
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+  
+  .site-nav a {
+    padding: 0;
+    margin-left: 4em;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+  
+  .site-nav--icon {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 1em;
+  width: 1.1em;
+  text-align: right;
+  color: rgba(255,255,255,.4);
+/*    display: none;*/
+  }
+    
+
+    
+  
+}    /* End of @media (min-width: 700px)*/
+
